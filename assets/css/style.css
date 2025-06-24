@@ -6,6 +6,7 @@ body {
   padding: 15px;
   background-image: url("../img/sfondo.png");
   background-position: center center;
+  width: 100vw;
 }
 
 * {
@@ -459,4 +460,19 @@ footer a {
   .toTop {
     display: none;
   }
+}
+
+.btn-to-top {
+  position: fixed;
+  bottom: 3%;
+  right: 0%;
+  background-color: rgba(255, 255, 255, 0.711);
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 1em;
+  padding-right: 0;
+}
+#to-top {
+  font-size: 3em;
+  color: #d36060;
 }
