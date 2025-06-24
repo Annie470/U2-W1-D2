@@ -461,18 +461,96 @@ footer a {
     display: none;
   }
 }
+@media screen and (max-width: 699px) {
+  .btn-to-top {
+    position: fixed;
+    bottom: 3%;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0.711);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1em;
+    padding-right: 0;
+  }
+  #to-top {
+    font-size: 3em;
+    color: #d36060;
+  }
 
-.btn-to-top {
-  position: fixed;
-  bottom: 3%;
-  right: 0%;
-  background-color: rgba(255, 255, 255, 0.711);
-  border: 2px solid white;
-  border-radius: 10px;
-  padding: 1em;
-  padding-right: 0;
+  .btn-plus {
+    position: fixed;
+    bottom: 12%;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0.711);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1em;
+    padding-right: 0;
+  }
+  #plus {
+    font-size: 3em;
+    color: #4e67b7;
+  }
+
+  .btn-calendar {
+    position: fixed;
+    bottom: 21%;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0.711);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1em;
+    padding-right: 0;
+  }
+  #calendar {
+    font-size: 3em;
+    color: #4e67b7;
+  }
 }
-#to-top {
-  font-size: 3em;
-  color: #d36060;
+
+@media screen and (min-width: 700px) {
+  .btn-to-top {
+    position: fixed;
+    bottom: 3%;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0.711);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1em;
+    padding-right: 0;
+  }
+  #to-top {
+    font-size: 3em;
+    color: #d36060;
+  }
+
+  .btn-plus {
+    position: fixed;
+    bottom: 62%;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0.711);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1em;
+    padding-right: 0;
+  }
+  #plus {
+    font-size: 3em;
+    color: #4e67b7;
+  }
+
+  .btn-calendar {
+    position: fixed;
+    bottom: 70%;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0.711);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1em;
+    padding-right: 0;
+  }
+  #calendar {
+    font-size: 3em;
+    color: #4e67b7;
+  }
 }
