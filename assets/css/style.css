@@ -468,42 +468,54 @@ footer a {
     right: 0%;
     background-color: rgba(255, 255, 255, 0.711);
     border: 2px solid white;
+    border-right: none;
     border-radius: 10px;
-    padding: 1em;
-    padding-right: 0;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    box-shadow: 5px 5px 18px -4px #000000;
+    padding: 0.5em;
+    padding-right: 0.1em;
   }
   #to-top {
-    font-size: 3em;
+    font-size: 2em;
     color: #d36060;
   }
 
   .btn-plus {
     position: fixed;
-    bottom: 12%;
+    bottom: 13%;
     right: 0%;
     background-color: rgba(255, 255, 255, 0.711);
     border: 2px solid white;
+    border-right: none;
     border-radius: 10px;
-    padding: 1em;
-    padding-right: 0;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    box-shadow: 5px 5px 18px -4px #000000;
+    padding: 0.5em;
+    padding-right: 0.1em;
   }
   #plus {
-    font-size: 3em;
+    font-size: 2em;
     color: #4e67b7;
   }
 
   .btn-calendar {
     position: fixed;
-    bottom: 21%;
+    bottom: 23%;
     right: 0%;
     background-color: rgba(255, 255, 255, 0.711);
     border: 2px solid white;
+    border-right: none;
     border-radius: 10px;
-    padding: 1em;
-    padding-right: 0;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    box-shadow: 5px 5px 18px -4px #000000;
+    padding: 0.5em;
+    padding-right: 0.1em;
   }
   #calendar {
-    font-size: 3em;
+    font-size: 2em;
     color: #4e67b7;
   }
 }
@@ -517,7 +529,12 @@ footer a {
     border: 2px solid white;
     border-radius: 10px;
     padding: 1em;
-    padding-right: 0;
+    border-right: none;
+    border-radius: 10px;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    box-shadow: 5px 5px 18px -4px #000000;
+    padding-right: 0.1em;
   }
   #to-top {
     font-size: 3em;
@@ -526,13 +543,19 @@ footer a {
 
   .btn-plus {
     position: fixed;
-    bottom: 62%;
+    top: 3%;
     right: 0%;
     background-color: rgba(255, 255, 255, 0.711);
     border: 2px solid white;
     border-radius: 10px;
     padding: 1em;
-    padding-right: 0;
+    border-right: none;
+    border-radius: 10px;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    box-shadow: 5px 5px 18px -4px #000000;
+    padding-right: 0.1em;
+    z-index: 11;
   }
   #plus {
     font-size: 3em;
@@ -541,13 +564,19 @@ footer a {
 
   .btn-calendar {
     position: fixed;
-    bottom: 70%;
+    top: 18%;
     right: 0%;
     background-color: rgba(255, 255, 255, 0.711);
     border: 2px solid white;
     border-radius: 10px;
     padding: 1em;
-    padding-right: 0;
+    border-right: none;
+    border-radius: 10px;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    box-shadow: 5px 5px 18px -4px #000000;
+    padding-right: 0.1em;
+    z-index: 11;
   }
   #calendar {
     font-size: 3em;
